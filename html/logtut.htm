@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <title>Green Controller</title>
+    
+    <style>
+		#loginform{
+			width: 90%;
+			background: #EEE;
+			box-shadow: 2px 2px 10px #999;
+			padding: 10px;
+			display: block;
+			margin: 0 auto 0 auto;
+		}
+		
+		@media screen and (min-width: 32em) {
+    		#loginform{
+				width: 400px;
+			}
+		}
+
+		
+	</style>
+    </head>
+    <body>
+        
+            <div>
+                <h1>Login</h1>
+            </div>
+
+			<form id="loginform" action="/login" method="GET">
+				<input type="text" name="username" placeholder="Username">
+				<input type="password" name="password" placeholder="Password">
+				<br>
+				<input type="submit" value="Submit">
+			</form>
+
+			<p>
+				<a href="entry.htm">entry</a>
+			</p>
+        
+    </body>
+</html>
