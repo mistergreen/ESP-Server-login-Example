@@ -39,8 +39,8 @@ File webFile;
 
 /************* website login **************/
 // wifi
-char ssid[] = "WATERFALL"; //  your network SSID (name)
-char password[] = "quynhnhi";    // your network password (use for WPA, or use as key for WEP)
+char ssid[] = "YOURNETWORKNAME"; //  your network SSID (name)
+char password[] = "yournetworkpassword";    // your network password (use for WPA, or use as key for WEP)
 
 // site login
 char username[] = "admin";
