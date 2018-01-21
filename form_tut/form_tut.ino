@@ -57,9 +57,6 @@ void setup()
  
   // start serial port:
   Serial.begin(115200);
-  //SerialUSB.begin(115200);  // Due nativeUSB port, no reset of board on open serial port
-
-  //Wire.begin();
 
   //************ wifi *******************
   
@@ -216,7 +213,7 @@ void parseReceivedRequest(WiFiClient client)
   //find query vars
   //Serial.println(" ");
   Serial.println("*************");
-  Serial.println(queryBuffer);
+  //Serial.println(queryBuffer);
   Serial.println("*************");
   
   //  GET /index.htm HTTP/1.1
